@@ -16,11 +16,15 @@
 	position:absolute;
 	left:0px;
 	top:115px;
-	width:1200px;
-	height:39px;
+	width:1288px;
+	height:40px;
 	z-index:2;
-	list-style-type: none;
 }
+#apDiv2 ul {
+	list-style-type: none;
+	padding: 10px;
+}
+
 #apDiv3 {
 	position:absolute;
 	left:6px;
@@ -28,6 +32,25 @@
 	width:1187px;
 	height:587px;
 	z-index:3;
+}
+#apDiv2 div ul {
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#apDiv2 div ul li {
+	display: block;
+	float: left;
+	font-size: 24px;
+	background-color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	padding-top: 10px;
+	padding-right: 43px;
+	padding-bottom: 10px;
+	padding-left: 43px;
+	width: 210px;
 }
 </style>
 </head>
@@ -37,10 +60,10 @@
 <div id="apDiv2">
 <div>
 <ul> 
-<li>Our Products</li>
-<li>Locally Popular Products </li>
-<li>Local Benefits</li>
-<li>About Us/Contact Us</li>
+<li id="ourproducts">Our Products</li>
+<li id="locallypopularproducts">Locally Popular Products </li>
+<li id="localbenefits">Local Benefi<span id="menubar">ts</span></li>
+<li id="aboutus">About Us/Contact Us</li>
 </ul>
 </div>
 </div>
