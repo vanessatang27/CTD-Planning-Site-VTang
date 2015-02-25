@@ -204,7 +204,7 @@
 <div id="apDiv3"></div>
 <!-- TemplateEndRepeat --><!-- TemplateBeginRepeat name="Search Bar" -->
 <div id="apDiv4">
-<input type="text" name="Search" id="search-text" value="Search" />
+<input type="text" name="Search" id="search-text" value="Search Products" />
 <input type="submit" id="search-submit" value="Search" />
 
 </div>
