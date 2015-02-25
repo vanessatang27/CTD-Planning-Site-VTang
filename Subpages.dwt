@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+#apDiv1 {
+	position:absolute;
+	left:30px;
+	top:16px;
+	width:220px;
+	height:82px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:0px;
+	top:118px;
+	width:1210px;
+	height:34px;
+	z-index:2;
+}
+
+#apDiv2 div ul {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-family: "Cicle Gordita";
+}
+
+#apDiv2 div ul li {
+	display: block;
+	float: left;
+	font-size: 27px;
+	background-color: #333;
+	font-family: Sertig;
+	color: #FFF;
+	width: 270px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	height: 20px;
+	list-style-type: none;
+}
+
+#apDiv3 {
+	position:absolute;
+	left:0px;
+	top:185px;
+	width:225px;
+	height:600px;
+	z-index:3;
+}
+#apDiv4 {
+	position:absolute;
+	left:886px;
+	top:59px;
+	width:274px;
+	height:34px;
+	z-index:4;
+}
+#apDiv5 {
+	position:absolute;
+	left:607px;
+	top:59px;
+	width:274px;
+	height:34px;
+	z-index:5;
+}
+
+#apDiv5 ul {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-family: "Cicle Gordita";
+}
+
+#apDiv5 ul li{
+	display: block;
+	float: left;
+	font-size: 15px;
+	color: #FFF;
+	width: 270px;
+	padding-top: 1px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	height: 20px;
+	list-style-type: none;
+}
+#apDiv6 {
+	position:absolute;
+	width:968px;
+	height:601px;
+	z-index:6;
+	left: 238px;
+	top: 186px;
+	overflow: scroll;
+}
+#apDiv7 {
+	position:absolute;
+	width:210px;
+	height:210px;
+	z-index:7;
+	left: 65px;
+	top: 24px;
+}
+#apDiv8 {
+	position:absolute;
+	width:210px;
+	height:210px;
+	z-index:7;
+	left: 375px;
+	top: 24px;
+}
+#apDiv9 {
+	position:absolute;
+	width:210px;
+	height:210px;
+	z-index:7;
+	left: 685px;
+	top: 24px;
+}
+#apDiv10 {
+	position:absolute;
+	width:210px;
+	height:210px;
+	z-index:7;
+	left: 375px;
+	top: 350px;
+}
+#apDiv11 {
+	position:absolute;
+	width:210px;
+	height:210px;
+	z-index:7;
+	left: 65px;
+	top: 350px;
+}
+#apDiv12 {
+	position:absolute;
+	width:210px;
+	height:210px;
+	z-index:7;
+	left: 685px;
+	top: 350px;
+}
+#apDiv13 {	position:absolute;
+	width:210px;
+	height:210px;
+	z-index:7;
+	left: 685px;
+	top: 24px;
+}
+#apDiv14 {	position:absolute;
+	width:210px;
+	height:210px;
+	z-index:7;
+	left: 685px;
+	top: 24px;
+}
+#apDiv15 {	position:absolute;
+	width:210px;
+	height:210px;
+	z-index:7;
+	left: 685px;
+	top: 24px;
+}
+</style>
+</head>
+
+<body>
+<!-- TemplateBeginRepeat name="Logo" -->
+<div id="apDiv1"><img src="../CTD-Planning-Site-VTang/Website_Pictures/mizspa Logo.jpg" width="220" height="82" alt="Logo" /></div>
+<!-- TemplateEndRepeat --><!-- TemplateBeginRepeat name="Navigation Bar" -->
+<div id="apDiv2">
+  <div>
+    <ul>
+      <li id="ourproducts"> Our Products</li>
+      <li id="locallypopularproducts">Local Products </li>
+      <li id="localbenefits">Local Benefits</li>
+      <li id="aboutus">About Us/Contact Us</li>
+    </ul>
+  </div>
+</div>
+<!-- TemplateEndRepeat --><!-- TemplateBeginRepeat name="Menu" -->
+<div id="apDiv3"></div>
+<!-- TemplateEndRepeat --><!-- TemplateBeginRepeat name="Search Bar" -->
+<div id="apDiv4">
+<input type="text" name="Search" id="search-text" value="Search" />
+<input type="submit" id="search-submit" value="Search" />
+
+</div>
+<!-- TemplateEndRepeat --><!-- TemplateBeginEditable name="Content" -->
+<div id="apDiv6">
+  <div id="apDiv7"></div>
+  <div id="apDiv8"></div>
+  <div id="apDiv9"></div>
+  <div id="apDiv10"></div>
+  <div id="apDiv11"></div>
+  <div id="apDiv12"></div>
+</div>
+<!-- TemplateEndEditable --><!-- TemplateBeginRepeat name="Personal Information" -->
+<div id="apDiv5">
+  <ul>
+    <li>Login</li>
+    <li>My Cart</li>
+    <li>My Account</li>
+  </ul>
+</div>
+<!-- TemplateEndRepeat -->
+</body>
+</html>
