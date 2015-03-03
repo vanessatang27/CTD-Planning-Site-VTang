@@ -58,7 +58,7 @@
 	position:absolute;
 	left:0px;
 	top:185px;
-	width:225px;
+	width:238px;
 	height:600px;
 	z-index:3;
 }
