@@ -211,7 +211,7 @@ a:visited {
 
 <body>
 <!-- TemplateBeginRepeat name="Logo" -->
-<div id="apDiv1"><img src="../Website_Pictures/mizspa Logo.jpg" width="220" height="82" alt="Logo" /></div>
+<div id="apDiv1"><a href="../htdocs/index-DW.html"><img src="../Website_Pictures/mizspa Logo.jpg" width="220" height="82" alt="Logo" /></a></div>
 <!-- TemplateEndRepeat --><!-- TemplateBeginRepeat name="Navigation Bar" -->
 <div id="apDiv2">
   <div>
