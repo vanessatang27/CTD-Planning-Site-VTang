@@ -1,9 +1,110 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title> Website Project Brainstorm </title>
-  </head>
-  <body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/PlanningSite.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<style type="text/css">
+#apDiv1 {
+	position:absolute;
+	left:24px;
+	top:79px;
+	width:1016px;
+	height:67px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:9px;
+	top:14px;
+	width:846px;
+	height:56px;
+	z-index:1;
+}
+#apDiv3 {
+	position:absolute;
+	left:10px;
+	top:99px;
+	width:849px;
+	height:662px;
+	z-index:2;
+}td img {display: block;}
+</style>
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])?args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) { img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr) for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+//-->
+</script>
+</head>
+
+<body>
+<table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="842">
+  <!-- fwtable fwsrc="Buttons.png" fwpage="Page 1" fwbase="Buttons.png" fwstyle="Dreamweaver" fwdocid = "99057527" fwnested="0" -->
+  <tr>
+    <td><img src="spacer.gif" width="268" height="1" border="0" alt="" /></td>
+    <td><img src="spacer.gif" width="19" height="1" border="0" alt="" /></td>
+    <td><img src="spacer.gif" width="268" height="1" border="0" alt="" /></td>
+    <td><img src="spacer.gif" width="19" height="1" border="0" alt="" /></td>
+    <td><img src="spacer.gif" width="268" height="1" border="0" alt="" /></td>
+    <td><img src="spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+  <tr>
+    <td><a href="index.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','Buttons_r1_c1','../Buttons/Buttons_r1_c1_s2.png','../Buttons/Buttons_r1_c1_s3.png',1);" onclick="MM_nbGroup('down','navbar1','Buttons_r1_c1','../Buttons/Buttons_r1_c1_s3.png',1);"><img name="Buttons_r1_c1" src="Buttons/Buttons_r1_c1.png" width="268" height="50" border="0" id="Buttons_r1_c1" alt="" /></a></td>
+    <td><img name="Buttons_r1_c2" src="Buttons/Buttons_r1_c2.png" width="19" height="50" border="0" id="Buttons_r1_c2" alt="" /></td>
+    <td><a href="makinghomepage.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','Buttons_r1_c3','../Buttons/Buttons_r1_c3_s2.png','../Buttons/Buttons_r1_c3_s3.png',1);" onclick="MM_nbGroup('down','navbar1','Buttons_r1_c3','../Buttons/Buttons_r1_c3_s3.png',1);"><img name="Buttons_r1_c3" src="Buttons/Buttons_r1_c3.png" width="268" height="50" border="0" id="Buttons_r1_c3" alt="" /></a></td>
+    <td><img name="Buttons_r1_c4" src="Buttons/Buttons_r1_c4.png" width="19" height="50" border="0" id="Buttons_r1_c4" alt="" /></td>
+    <td><a href="makingsubpages.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','Buttons_r1_c5','../Buttons/Buttons_r1_c5_s2.png','../Buttons/Buttons_r1_c5_s3.png',1);" onclick="MM_nbGroup('down','navbar1','Buttons_r1_c5','../Buttons/Buttons_r1_c5_s3.png',1);"><img name="Buttons_r1_c5" src="Buttons/Buttons_r1_c5.png" width="268" height="50" border="0" id="Buttons_r1_c5" alt="" /></a></td>
+    <td><img src="spacer.gif" width="1" height="50" border="0" alt="" /></td>
+  </tr>
+</table>
+<!-- InstanceBeginEditable name="EditableRegion" -->
     <h1>
       Website Projects Brainstorm
     </h1>
@@ -45,7 +146,7 @@
         <li>Convey a more classy feel.</li>
       </ol>
 
-    <h2>Goals for this Project</2>
+    <h2>Goals for this Project&lt;/2&gt;
       To have a clearer picture of how we are going to go about doing this project, we have set goals.
       <ol>
         <li>Meet the client by the second week of December.</li>
@@ -63,27 +164,27 @@
       <p>
         The very main objective of this project is to make the website and company look trustworthy. The first step is to look at the homepages. To attain this, we will first refer to other well-known and trusted cosmetics and perfume companies. We will look to Sasa HK, Chanel, Dior, Louis Vuitton, Gucci, and more.
       </p>
-      <img src="./Research_Pictures/SASA_Research.png" width=700px/>
-      <img src="./Research_Pictures/Chanel_Research.png" width=700px/>
-      <img src="./Research_Pictures/Dior_Research.png" width=700px/>
-      <img src="./Research_Pictures/Gucci_Research.png" width=700px/>
-      <img src="./Research_Pictures/SK-II_Research.png" width=700px/>
+      <img src="./Research_Pictures/SASA_Research.png" width="700px"/>
+      <img src="./Research_Pictures/Chanel_Research.png" width="700px"/>
+      <img src="./Research_Pictures/Dior_Research.png" width="700px"/>
+      <img src="./Research_Pictures/Gucci_Research.png" width="700px"/>
+      <img src="./Research_Pictures/SK-II_Research.png" width="700px"/>
       <p>
         On Wednesday December 17th, my group and I met with our clients- the owner and the coordinator of Sky On International Ltd. They are the leaders of Mizspa. Through this meeting, we learned a lot about the company and their website. We got a clear idea of the objectives, purpose, and audience. It is a little different from what we expected. These are some things we learned from the interview.
       </p>
       <p>
         Mizspa's original website may have some changes, but what the client needs is a Mizspa.com.hk, which would be more suited for local Hong Kong customers. This new local website is different from the original in the sense that it <strong>stresses the benefits for local customers</strong>. The company also wants to <strong>highlight popular perfume and cosmetics choices of Hong Kong people</strong> so that customers could follow up with the trend.
       </p>
-      <p>
-        <h3>Audience</h3>
+      <p>&nbsp;
+        </p><h3>Audience</h3>
         20 to 45 year-old females from Hong Kong who live far away from the store
       </p>
-      <p>
-        <h3>Purpose</h3>
+      <p>&nbsp;
+        </p><h3>Purpose</h3>
           e-commerce, to make it easier for women to shop for cosmetics online
       </p>
-      <p>
-        <h3>Objectives</h3>
+      <p>&nbsp;
+        </p><h3>Objectives</h3>
         <ul>
           <li>Show a high-end luxurious feel</li>
           <li>Have a hint of local flavor</li>
@@ -99,18 +200,18 @@
       <p>
         After finding the objectives and purpose, we came up with a few ideas of flow chart of the pages that we will have on our website.
       </p>
-        <p><img src="./Flowcharts/Website_Flowchart2.png" width=500px/></p>
+        <p><img src="./Flowcharts/Website_Flowchart2.png" width="500px"/></p>
   <p>This is the first flowchart we made. We decided that this sitmap is not viable because the two subpages that we have are not audience-oriented. Our audience would probably be interested in the locally popular products, but not many would be interested in clicking the sets page.</p>
-        <p><img src="Flowcharts/Flowchart3.jpg" width="575" height="415"></p>
+        <p><img src="Flowcharts/Flowchart3.jpg" width="575" height="415" /></p>
   <p>This sitemap is one that mimicks the sitemap of the original mizspa website. There is a huge amount of subpages in which users need to click before getting to the page we want. We are after a simple, easy navigation and this does not do the job.</p>
-        <p><img src="./Flowcharts/Website_Flowchart.png" width=500px/></p>
+        <p><img src="./Flowcharts/Website_Flowchart.png" width="500px"/></p>
       <p>
         We chose to use this flowchart because it is simple and does not require a lot of clicks at all to get to a target page. The top subpages are categories that we feel the audience would be interested in. There are also enough pages for the client to reference from this demo to make their own site.
       </p>
 
-<a href="makinghomepage.html"/>This is how I made my homepage.</a>
+<a href="makinghomepage.html"/></a>This is how I made my homepage.</a>
 
 
-  </body>
-
-</html>
+  <!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/PlanningSite.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
-<!-- InstanceEndEditable -->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 <style type="text/css">
 #apDiv1 {
 	position:absolute;
@@ -96,26 +96,16 @@ function MM_preloadImages() { //v3.0
     <td><img src="spacer.gif" width="1" height="1" border="0" alt="" /></td>
   </tr>
   <tr>
-    <td><a href="index.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','Buttons_r1_c1','../Buttons/Buttons_r1_c1_s2.png','../Buttons/Buttons_r1_c1_s3.png',1);" onclick="MM_nbGroup('down','navbar1','Buttons_r1_c1','../Buttons/Buttons_r1_c1_s3.png',1);"><img name="Buttons_r1_c1" src="Buttons/Buttons_r1_c1.png" width="268" height="50" border="0" id="Buttons_r1_c1" alt="" /></a></td>
-    <td><img name="Buttons_r1_c2" src="Buttons/Buttons_r1_c2.png" width="19" height="50" border="0" id="Buttons_r1_c2" alt="" /></td>
-    <td><a href="makinghomepage.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','Buttons_r1_c3','../Buttons/Buttons_r1_c3_s2.png','../Buttons/Buttons_r1_c3_s3.png',1);" onclick="MM_nbGroup('down','navbar1','Buttons_r1_c3','../Buttons/Buttons_r1_c3_s3.png',1);"><img name="Buttons_r1_c3" src="Buttons/Buttons_r1_c3.png" width="268" height="50" border="0" id="Buttons_r1_c3" alt="" /></a></td>
-    <td><img name="Buttons_r1_c4" src="Buttons/Buttons_r1_c4.png" width="19" height="50" border="0" id="Buttons_r1_c4" alt="" /></td>
-    <td><a href="makingsubpages.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','Buttons_r1_c5','../Buttons/Buttons_r1_c5_s2.png','../Buttons/Buttons_r1_c5_s3.png',1);" onclick="MM_nbGroup('down','navbar1','Buttons_r1_c5','../Buttons/Buttons_r1_c5_s3.png',1);"><img name="Buttons_r1_c5" src="Buttons/Buttons_r1_c5.png" width="268" height="50" border="0" id="Buttons_r1_c5" alt="" /></a></td>
+    <td><a href="../index.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','Buttons_r1_c1','../Buttons/Buttons_r1_c1_s2.png','../Buttons/Buttons_r1_c1_s3.png',1);" onclick="MM_nbGroup('down','navbar1','Buttons_r1_c1','../Buttons/Buttons_r1_c1_s3.png',1);"><img name="Buttons_r1_c1" src="../Buttons/Buttons_r1_c1.png" width="268" height="50" border="0" id="Buttons_r1_c1" alt="" /></a></td>
+    <td><img name="Buttons_r1_c2" src="../Buttons/Buttons_r1_c2.png" width="19" height="50" border="0" id="Buttons_r1_c2" alt="" /></td>
+    <td><a href="../makinghomepage.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','Buttons_r1_c3','../Buttons/Buttons_r1_c3_s2.png','../Buttons/Buttons_r1_c3_s3.png',1);" onclick="MM_nbGroup('down','navbar1','Buttons_r1_c3','../Buttons/Buttons_r1_c3_s3.png',1);"><img name="Buttons_r1_c3" src="../Buttons/Buttons_r1_c3.png" width="268" height="50" border="0" id="Buttons_r1_c3" alt="" /></a></td>
+    <td><img name="Buttons_r1_c4" src="../Buttons/Buttons_r1_c4.png" width="19" height="50" border="0" id="Buttons_r1_c4" alt="" /></td>
+    <td><a href="../makingsubpages.html" onmouseout="MM_nbGroup('out');" onmouseover="MM_nbGroup('over','Buttons_r1_c5','../Buttons/Buttons_r1_c5_s2.png','../Buttons/Buttons_r1_c5_s3.png',1);" onclick="MM_nbGroup('down','navbar1','Buttons_r1_c5','../Buttons/Buttons_r1_c5_s3.png',1);"><img name="Buttons_r1_c5" src="../Buttons/Buttons_r1_c5.png" width="268" height="50" border="0" id="Buttons_r1_c5" alt="" /></a></td>
     <td><img src="spacer.gif" width="1" height="50" border="0" alt="" /></td>
   </tr>
 </table>
-<!-- InstanceBeginEditable name="EditableRegion" -->
-  <h1>
-    Making My Subpages
-  </h1>
-After creating our homepage, we began to work on our subpages. Before getting into actually creating the subpages, there were a few things we needed to put into consideration.
-<p>
-  First, we reviewed the flowchart we had to decide what subpages we had to make.
-<img src="./Flowcharts/Website_Flowchart.png" /></p>
-<p>
-  The subpages that we have on the first level are &quot;Our Products,&quot; &quot;Local Products,&quot; and &quot;Local Benefits&quot; with one extra page under Our Products. The overall theme that we want to convey is simplicity. One of the biggest messages that we want to convey with the new website is that it is authentic, and the theme of simplicity helps convey this. Most visitors of this page think that the website is a counterfeit because it looks too much like websites such as <em>Alibaba</em> or <em>taobao</em>.
-</p>
-<p>&nbsp;</p>
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="EditableRegion" -->
+<div id="apDiv3"></div>
+<!-- TemplateEndEditable -->
 </body>
-<!-- InstanceEnd --></html>
+</html>
