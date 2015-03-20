@@ -227,15 +227,15 @@
 
 <body>
 <!-- TemplateBeginRepeat name="Logo" -->
-<div id="apDiv1"><a href="../htdocs/index-DW.html"><img src="../Website_Pictures/mizspa Logo.jpg" width="220" height="82" alt="Logo" /></a></div>
+<div id="apDiv1"><a href="../Website Pages/index-DW.html"><img src="../Website_Pictures/mizspa Logo.jpg" width="220" height="82" alt="Logo" /></a></div>
 <!-- TemplateEndRepeat --><!-- TemplateBeginRepeat name="Navigation Bar" -->
 <div id="apDiv2">
   <div>
     <ul>
-<li id="ourproducts"><a href="../OurProducts.html">Our Products</a></li>
-<li id="locallypopularproducts"><a href="../LocallyPopularProducts.html">Local Products</a></li>
-<li id="localbenefits"><a href="../homepage_creation.html">Local Benefits</a></li>
-<li id="aboutus"><a href="../About Us and Contact Us.html">About Us/Contact Us</a></li>
+<li id="ourproducts"><a href="../Website Pages/OurProducts.html">Our Products</a></li>
+<li id="locallypopularproducts"><a href="../Website Pages/LocallyPopularProducts.html">Local Products</a></li>
+<li id="localbenefits"><a href="../Website Pages/LocalBenefits.html">Local Benefits</a></li>
+<li id="aboutus"><a href="../Website Pages/About Us and Contact Us.html">About Us/Contact Us</a></li>
     </ul>
   </div>
 </div>
